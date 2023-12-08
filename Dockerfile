@@ -12,6 +12,7 @@ RUN npm install
 
 # Copy the rest of the application code to the working directory
 COPY . .
+ENV REACT_APP_RAPID_API_KEY=8c118c716emshdc4d10b08bdc6f7p1f8122jsnb19d17f4fbc4
 
 # Build the React app
 RUN npm run build
